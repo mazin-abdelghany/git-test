@@ -22,3 +22,8 @@ For example,
 - `git add .` is read as `git | add | .`, where the period represents everything in the current directory;  
 - `git commit -m "message"` is read as `git | commit -m | "message"`; and
 - `git status` is read as `git | status | (no destination)`.
+
+## Here is a Git best practice
+- Perform **atomic commits**&mdash;a commit that includes changes related to only one feature or task of your program.
+	- if something you change turns out to cause some problems, it is easy to revert the specific change without losing other changes.
+	- enables you to write better commit messages
